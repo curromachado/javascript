@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+    <details>Realiza un documento html con JavaScript que permita a partir de dos de cajas de
+        texto recibir la información de un usuario sobre su altura en centímetros y masa
+        en kilogramos para calcular su índice de masa corporal(IMC). En función del
+        resultado obtenido el script mostrará un mensaje en pantalla ofreciendo el
+        coeficiente obtenido así como una indicación en base a la siguiente tabla:</details>
+</head>
+<body>
+    <form>
+        <label for="Altura">Introduce Altura en CENTIMETROS:
+            <input type="number" id="Altura">
+        </label>
+        <br><br>
+        <label for="Peso">Introduce Peso en KILOGRAMOS:
+            <input type="number" id="Peso">
+        </label>
+        <br>
+        <br>
+        <button type="button" onclick="calcularIMC()">Calcular IMC</button>
+
+        <p id="resultado"></p>
+    </form>
+    <script src="ejercicio4.js"></script>
+</body>
+</html>
